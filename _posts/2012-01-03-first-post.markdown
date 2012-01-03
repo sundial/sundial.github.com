@@ -18,3 +18,7 @@ title: First Post
 蓦然回首， 
 那人却在， 
 灯火阑珊处。
+
+<a href="{{ page.url }}#disqus_thread">View Comments</a>
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="http://disqus.com/forums/[your-site-name]/embed.js"></script>
