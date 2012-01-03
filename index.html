@@ -2,6 +2,8 @@
 layout: default
 title: Sundial
 ---
-
-<h1>绿蚁新醅酒，红泥小火炉。晚来天欲雪，能饮一杯无。</h1>
-Welcome!
+{% for post in site.posts limit:5 %}
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{{ post.content }}
+<em>Posted on {{ post.date | date_to_long_string }}.</em>
+{% endfor %}
