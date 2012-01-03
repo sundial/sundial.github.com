@@ -6,5 +6,14 @@ title: Sundial
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 {{ post.content }}
 <em>Posted on {{ post.date | date_to_long_string }}.</em>
+<<<<<<< HEAD
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+=======
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+{{ post.content }}
+<em>Posted on {{ post.date | date_to_long_string }}.</em>
+<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+{{ post.content }}
+<em>Posted on {{ post.date | date_to_long_string }}.</em>
+>>>>>>> 88ecd3ac0225d6f225f9c4723a4fbfd9e62d60c9
 {% endfor %}
