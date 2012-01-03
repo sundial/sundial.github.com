@@ -1,4 +1,7 @@
-
+---
+layout: default
+title:Second Post
+---
 ÃşÓã¶ù 
 
 ĞÁÆú¼² 
